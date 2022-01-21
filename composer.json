@@ -1,22 +1,16 @@
 {
-    "name": "laravel-zero/laravel-zero",
-    "description": "The Laravel Zero Framework.",
-    "keywords": ["framework", "laravel", "laravel zero", "console", "cli"],
-    "homepage": "https://laravel-zero.com",
+    "name": "alisaleem/wordle-cli",
+    "description": "Wordle CLI",
     "type": "project",
-    "license": "MIT",
-    "support": {
-        "issues": "https://github.com/laravel-zero/laravel-zero/issues",
-        "source": "https://github.com/laravel-zero/laravel-zero"
-    },
+    "license": "proprietary",
     "authors": [
         {
-            "name": "Nuno Maduro",
-            "email": "enunomaduro@gmail.com"
+            "name": "Ali Saleem",
+            "email": "alisaleem@outlook.com"
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^8.1",
         "laminas/laminas-text": "^2.8",
         "laravel-zero/framework": "^8.8",
         "nunomaduro/termwind": "^1.3"
