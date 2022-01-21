@@ -1,3 +1,3 @@
 # Wordle CLI
 
-`./builds/wordle`
+`php wordle`
