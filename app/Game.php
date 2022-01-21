@@ -19,7 +19,7 @@ class Game
     public function start(Word $answer)
     {
         $this->wordLength = strlen($answer->word);
-        $this->wordList   = require base_path('allowed_words.php');
+        $this->wordList   = require app_path('allowed_words.php');
 
         while (count($this->attempts) < $this->gameLength) {
             $this->renderer->draw($this->attempts);

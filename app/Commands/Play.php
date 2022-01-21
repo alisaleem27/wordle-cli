@@ -15,7 +15,7 @@ class Play extends Command
 
     public function handle()
     {
-        $answer = collect(require base_path('choice_words.php'))->random();
+        $answer = collect(require app_path('choice_words.php'))->random();
 
         $game = new Game(
             new Renderer(
