@@ -1,0 +1,3 @@
+# Wordle CLI
+
+`./builds/wordle`
